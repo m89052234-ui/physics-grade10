@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فیزیک | کاوش در دنیای علم</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <nav class="navbar">
+
+    <div class="logo">
+        فیزیک
+    </div>
+<button class="menu-toggle" type="button">
+    ☰
+</button>
+    <div class="nav-links">
+        <a href="#">خانه</a>
+        <a href="#">درسنامه</a>
+        <a href="#">آزمایشگاه</a>
+        <a href="#">آزمون‌ها</a>
+    </div>
+
+    <div class="search-box">
+        <input type="text" placeholder="جست‌وجو در فیزیک...">
+        <button type="button">⌕</button>
+    </div>
+
+</nav>
+<div class="hero-content">
+
+    <p class="hero-subtitle">
+        کاوش در دنیای شگفت‌انگیز علم
+    </p>
+
+</div>
+    </header>
+<main>
+
+    <section class="lesson-world">
+        <div class="light-rays"></div>
+        <div class="ocean-bubbles">
+    <span class="bubble bubble-1"></span>
+    <span class="bubble bubble-2"></span>
+    <span class="bubble bubble-3"></span>
+    <span class="bubble bubble-4"></span>
+    <span class="bubble bubble-5"></span>
+    <span class="bubble bubble-6"></span>
+</div>
+
+        <div class="lesson-intro">
+        
+
+            <span class="intro-label">
+                BEYOND THE SURFACE
+            </span>
+
+            <h1>
+                سفری به اعماق شاره‌ها
+            </h1>
+
+            <p>
+                گاهی برای درک یک پدیده،
+                باید کمی عمیق‌تر نگاه کرد...
+            </p>
+
+            <button class="start-journey">
+                شروع ماجراجویی
+            </button>
+
+        </div>
+        <div class="discovery-panel" id="discoveryPanel">
+
+    <span class="intro-label">
+        FIRST DISCOVERY
+    </span>
+
+    <h2>یک سؤال ساده...</h2>
+
+    <p>
+        اگر در یک استخر به عمق بیشتری بروی،
+        فشار آب چه تغییری می‌کند؟
+    </p>
+
+    <div class="discovery-options">
+
+        <button onclick="checkAnswer(this, false)">
+            کمتر می‌شود
+        </button>
+
+        <button onclick="checkAnswer(this, true)">
+            بیشتر می‌شود
+        </button>
+
+        <button onclick="checkAnswer(this, false)">
+            تغییری نمی‌کند
+        </button>
+
+    </div>
+
+    <p class="answer-feedback" id="answerFeedback"></p>
+    <button class="explain-button" id="explainButton">
+    چرا این اتفاق می‌افتد؟
+</button>
+
+<div class="explanation-box" id="explanationBox">
+    <h3>راز فشار در عمق شاره‌ها</h3>
+
+    <p>
+        هرچه پایین‌تر می‌رویم، مقدار بیشتری از شاره بالای سر ما قرار می‌گیرد.
+        وزن این شاره باعث می‌شود فشار در عمق‌های بیشتر، افزایش پیدا کند.
+    </p>
+    <div class="golden-rule">
+    <span>نکته‌ی طلایی</span>
+
+    <p>
+        فشار در شاره‌ها به عمق بستگی دارد؛
+        هرچه عمق بیشتر باشد، فشار شاره نیز بیشتر می‌شود.
+        این قانون را در چهارچوب شاره ساکن و با ثابت بودن چگالی شاره و گرانش در نظر میگیریم
+    </p>
+</div>
+</div>
+
+
+</div>
+
+    </section>
+<section class="lesson-section" id="lessons">
+
+    <div class="lesson-header">
+        <span>THE SCIENCE OF FLUIDS / 01</span>
+        <h2>فشار در عمق شاره‌ها</h2>
+        <p>برای درک فشار، باید کمی عمیق‌تر از سطح نگاه کنیم.</p>
+    </div>
+
+    <div class="lesson-content">
+
+    <div class="magazine">
+
+        <!-- PAGE 01 -->
+        <article class="magazine-page active">
+
+            <div class="page-top">
+                <span>FIELD NOTES / 001</span>
+                <span>THE SCIENCE OF FLUIDS</span>
+            </div>
+
+            <div class="page-body">
+                <span class="page-category">UNDERSTANDING THE CONCEPT</span>
+
+                <h3>چرا فشار با عمق افزایش پیدا می‌کند؟</h3>
+
+                <p>
+                    تصور کن وارد یک استخر پر از آب شده‌ای.
+                    هرچه به قسمت‌های عمیق‌تر استخر بروی،
+                    فشار آب را بیشتر احساس می‌کنی.
+                    اما دلیل این اتفاق چیست؟
+                </p>
+
+                <p>
+                    در هر عمق، شاره‌ی بالای آن نقطه وزن دارد.
+                    این وزن باعث ایجاد فشار می‌شود.
+                    هرچه عمق بیشتر باشد، مقدار شاره‌ی بالای آن نقطه
+                    نیز بیشتر خواهد بود؛ بنابراین فشار افزایش پیدا می‌کند.
+                </p>
+            </div>
+
+            <div class="page-bottom">
+                <span>EXPLORING DEPTH</span>
+                <span>01 / 05</span>
+            </div>
+
+        </article>
+
+
+        <!-- PAGE 02 -->
+        <article class="magazine-page">
+
+            <div class="page-top">
+                <span>FIELD NOTES / 002</span>
+                <span>THE SCIENCE OF FLUIDS</span>
+            </div>
+
+            <div class="page-body">
+                <span class="page-category">THE FIRST EQUATION</span>
+
+                <h3>فشار پیمانه‌ای؛ حاصل وزن شاره</h3>
+
+                <p>
+                    فشار ناشی از وزن شاره در یک نقطه،
+                    به چگالی شاره، شتاب گرانش و عمق آن نقطه بستگی دارد.
+                </p>
+
+                <div class="magazine-formula">
+                    P<sub>g</sub> = ρgh
+                </div>
+
+                <p>
+                    در این رابطه، ρ چگالی شاره، g شتاب گرانش
+                    و h عمق نقطه‌ی موردنظر از سطح آزاد شاره است.
+                </p>
+
+                <p>
+                    یکای فشار در دستگاه SI پاسکال (Pa) است.
+                </p>
+            </div>
+
+            <div class="page-bottom">
+                <span>GAUGE PRESSURE</span>
+                <span>02 / 05</span>
+            </div>
+
+        </article>
+
+
+        <!-- PAGE 03 -->
+        <article class="magazine-page">
+
+            <div class="page-top">
+                <span>FIELD NOTES / 003</span>
+                <span>THE SCIENCE OF FLUIDS</span>
+            </div>
+
+            <div class="page-body">
+                <span class="page-category">BEYOND GAUGE PRESSURE</span>
+
+                <h3>فشار مطلق؛ فشار کل در یک نقطه</h3>
+
+                <p>
+                    سطح آزاد شاره معمولاً تحت تأثیر فشار هوا قرار دارد.
+                    بنابراین فشاری که در یک نقطه از شاره وجود دارد،
+                    فقط به وزن شاره محدود نمی‌شود.
+                </p>
+
+                <div class="magazine-formula">
+                    P = P₀ + ρgh
+                </div>
+
+                <p>
+                    در این رابطه، P₀ فشار واردشده بر سطح شاره است
+                    که در حالت معمول، همان فشار جو است.
+                </p>
+
+                <p>
+                    فشار مطلق برابر مجموع فشار سطح شاره و فشار پیمانه‌ای است.
+                </p>
+            </div>
+
+            <div class="page-bottom">
+                <span>ABSOLUTE PRESSURE</span>
+                <span>03 / 05</span>
+            </div>
+
+        </article>
+
+
+        <!-- PAGE 04 -->
+        <article class="magazine-page">
+
+            <div class="page-top">
+                <span>FIELD NOTES / 004</span>
+                <span>THE SCIENCE OF FLUIDS</span>
+            </div>
+
+            <div class="page-body">
+                <span class="page-category">SOLVED EXAMPLE</span>
+
+                <h3>حالا نوبت یک محاسبه است</h3>
+
+                <p>
+                    نقطه‌ای در عمق ۲ متری از سطح آب قرار دارد.
+                    اگر چگالی آب ۱۰۰۰ کیلوگرم بر متر مکعب
+                    و شتاب گرانش ۱۰ نیوتون بر کیلوگرم باشد،
+                    فشار پیمانه‌ای در این نقطه چقدر است؟
+                </p>
+
+                <div class="solution-step">
+                    <span>01 / داده‌های مسئله</span>
+                    <p>h = 2 m &nbsp; | &nbsp; ρ = 1000 &nbsp; | &nbsp; g = 10</p>
+                </div>
+
+                <div class="solution-step">
+                    <span>02 / انتخاب رابطه</span>
+                    <p> P<sub>g</sub> = ρgh </p>
+                </div>
+
+                <div class="solution-step">
+                    <span>03 / جایگذاری</span>
+                    <p>P<sub>g</sub> = 1000 × 10 × 2</p>
+                </div>
+
+                <div class="solution-answer">
+                    P<sub>g</sub> = 20000 Pa
+                </div>
+            </div>
+
+            <div class="page-bottom">
+                <span>PUT IT INTO PRACTICE</span>
+                <span>04 / 05</span>
+            </div>
+
+        </article>
+
+
+        <!-- PAGE 05 -->
+        <article class="magazine-page">
+
+            <div class="page-top">
+                <span>FIELD NOTES / 005</span>
+                <span>THE SCIENCE OF FLUIDS</span>
+            </div>
+
+            <div class="page-body">
+                <span class="page-category">THE FINAL NOTES</span>
+
+                <h3>آنچه باید به خاطر بسپاری</h3>
+
+                <p>پیش از پایان این فصل، این نکته‌ها را مرور کن:</p>
+
+                <ul class="final-notes">
+                    <li>با افزایش عمق، فشار پیمانه‌ای افزایش می‌یابد.</li>
+                    <li>با افزایش چگالی شاره، فشار در عمق یکسان بیشتر می‌شود.</li>
+                    <li>فشار پیمانه‌ای به فشار سطح شاره وابسته نیست.</li>
+                    <li>فشار مطلق از مجموع فشار پیمانه‌ای و فشار سطح به دست می‌آید.</li>
+                </ul>
+
+                <div class="magazine-formula">
+                    P = P₀ + P<sub>g</sub>
+                </div>
+
+                <p>
+                    حالا آماده‌ای آنچه یاد گرفتی در آزمایشگاه بررسی کنی.
+                </p>
+            </div>
+
+            <div class="page-bottom">
+                <span>END OF CHAPTER</span>
+                <span>05 / 05</span>
+            </div>
+
+        </article>
+
+    </div>
+
+    <div class="magazine-navigation">
+
+        <button type="button" id="prevPage" disabled>
+            صفحه‌ی قبل
+        </button>
+
+        <span id="pageCounter">01 / 05</span>
+
+        <button type="button" id="nextPage">
+            صفحه‌ی بعد
+        </button>
+
+    </div>
+
+</div>
+
+</div>
+
+    </div>
+
+</section>
+<section class="pressure-lab" id="lab">
+
+    <div class="lab-heading">
+        <span>VIRTUAL LAB / 01</span>
+
+        <h2>آزمایشگاه فشار در عمق شاره‌ها</h2>
+
+        <p>
+            عمق حسگر را تغییر بده و تأثیر آن را بر فشار شاره بررسی کن.
+        </p>
+    </div>
+
+    <div class="lab-card">
+
+    <div class="lab-controls">
+
+        <label for="depthSlider">عمق حسگر</label>
+
+        <input
+            type="range"
+            id="depthSlider"
+            min="0"
+            max="5"
+            step="0.5"
+            value="1"
+        >
+
+        <p>
+            عمق:
+            <strong id="depthValue">1</strong>
+            متر
+        </p>
+
+    </div>
+
+    <div class="pressure-results">
+
+        <div class="result-item">
+            <span>فشار پیمانه‌ای</span>
+            <strong id="gaugePressure">10000</strong>
+            <small>پاسکال (Pa)</small>
+        </div>
+
+        <div class="result-item">
+            <span>فشار مطلق</span>
+            <strong id="absolutePressure">111300</strong>
+            <small>پاسکال (Pa)</small>
+        </div>
+
+    </div>
+
+    <div class="water-tank">
+
+        <div class="water-surface"></div>
+        <div class="tank-bubbles">
+
+    <span class="tank-bubble bubble-a"></span>
+    <span class="tank-bubble bubble-b"></span>
+    <span class="tank-bubble bubble-c"></span>
+    <span class="tank-bubble bubble-d"></span>
+    <span class="tank-bubble bubble-e"></span>
+    <span class="tank-bubble bubble-f"></span>
+
+</div>
+<div class="depth-scale">
+
+    <span>0</span>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>5</span>
+
+</div>
+
+        <div class="pressure-sensor" id="pressureSensor">
+            P
+        </div>
+
+    </div>
+
+</div>
+
+<div class="formula-section">
+
+    <div class="formula-heading">
+        <span>PHYSICS FORMULAS</span>
+        <h3>روابط حاکم بر فشار شاره‌ها</h3>
+        <p>دو رابطه‌ی مهمی که در این آزمایش بررسی کردیم:</p>
+    </div>
+
+    <div class="formula-cards">
+
+        <div class="formula-card">
+            <span>01 / فشار پیمانه‌ای</span>
+
+            <div class="formula">
+                P = ρgh
+            </div>
+
+            <p>
+                این رابطه فشار ناشی از وزن شاره در عمق مشخص را نشان می‌دهد.
+            </p>
+        </div>
+
+        <div class="formula-card">
+            <span>02 / فشار مطلق</span>
+
+            <div class="formula">
+                P = P₀ + ρgh
+            </div>
+
+            <p>
+                فشار مطلق از مجموع فشار سطح شاره و فشار ناشی از شاره به دست می‌آید.
+            </p>
+        </div>
+
+    </div>
+
+</div>
+</section>
+</main>
+    <script src="script.js"></script>
+</body>
+
+</html>
